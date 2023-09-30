@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "GigiApp",
-    "slug": "GigiApp",
+    "slug": "gigiapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "831f8523-1fb7-4d6b-b2ba-305ab89e9f69"
+      }
+    },
+    "owner": "mchrama"
   }
 }
